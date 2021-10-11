@@ -18,6 +18,8 @@ composer i # php 7.4 com pdo e pdo_sqlite
 ```sh
 php artisan migrate
 ```
+> Caso queira popular previamente use ``php artisan db:seed`` logo após
+
 
 ## Run
 
@@ -29,3 +31,5 @@ php -S localhost:8080 -t public
 ## Anotações
 
 - *HATEOAS*: links nos recursos para navegação, facilitando o cliente navegar pela API sem conhecimento prévio.
+- [JWT](https://jwt.io/libraries): Estratégia de autenticação sem sessão para API REST
+    > Foi utilizado o `firebase/php-jwt`
