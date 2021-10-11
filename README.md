@@ -25,3 +25,7 @@ php artisan migrate
 ```sh
 php -S localhost:8080 -t public
 ```
+
+## Anotações
+
+- *HATEOAS*: links nos recursos para navegação, facilitando o cliente navegar pela API sem conhecimento prévio.
